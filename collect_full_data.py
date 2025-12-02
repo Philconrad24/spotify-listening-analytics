@@ -5,8 +5,8 @@ from datetime import datetime
 import time
 
 # Credentials
-CLIENT_ID = "aaa4b2dc80db452fa225eb51dc025beb"
-CLIENT_SECRET = "a0690a2cee3d40b8a449c60b5fdb335f"
+CLIENT_ID = "ADD CLIENT ID HERE"
+CLIENT_SECRET = "ADD CLIENT SECRET HERE"
 REDIRECT_URI = "http://127.0.0.1:8888/callback"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
